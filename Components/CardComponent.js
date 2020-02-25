@@ -229,12 +229,12 @@ export default class CardComponent extends React.Component {
 
 
       <CardAction separator={true} inColumn={false} style={{height: config.deviceHeight*(1*0.13),justifyContent:'center', alignItems:'center', backgroundColor:'#3e3938', paddingBottom: config.deviceHeight*(0.03),marginBottom: config.deviceHeight*(-0.02)}}>
-        <TouchableOpacity 
-          style={{width:'100%', height: config.deviceHeight*(1*0.13), alignItems:'center', justifyContent:'center'}}
-          onPress={() => { this.call(); }}>
+        <TouchableOpacity onPress={() => { this.call(); }}>
           <Text style={styles.buttonText1}>전화하기</Text>
         </TouchableOpacity>
-        
+        <TouchableOpacity onPress={() => { this.sms(); }}>
+          <Text style={styles.buttonText2}>문자하기</Text>
+        </TouchableOpacity>
       </CardAction>
     </Card>);
   }
