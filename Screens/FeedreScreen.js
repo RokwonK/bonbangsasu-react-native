@@ -13,7 +13,7 @@ import React from "react";
 import config from "../Components/Config";
 import Loader from "../Components/Loader";
 
-const url = "https://bonbangsasu.com";
+const { url } = config;
 
 export default class FeedreScreen extends React.Component {
   static navigationOptions = {

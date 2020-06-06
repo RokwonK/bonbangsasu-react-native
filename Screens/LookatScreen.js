@@ -7,7 +7,7 @@ import { Header } from 'react-native-elements'
 
 MIcon.loadFont();
 
-const url = 'https://bonbangsasu.com';
+const { url } = config;
 export default class LookatScreen extends React.Component{
   static navigationOptions = {
     header:null

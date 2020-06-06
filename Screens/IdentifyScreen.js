@@ -20,7 +20,7 @@ import Loader from '../Components/Loader';
 MIcon.loadFont();
 IIcon.loadFont();
 
-const url = 'https://bonbangsasu.com';
+const { url } = config;
 
 export default class IdentifyScreen extends Component{
 

@@ -14,6 +14,7 @@ const WINDOW_H = Dimensions.get('screen').height;
 const WINDOW_W = Dimensions.get('screen').width;
 
 MIcon.loadFont();
+const { url } = config;
 export default class LoginScreen extends Component {
     constructor(props) {
         super(props);

@@ -13,7 +13,7 @@ import React from "react";
 import config from "../Components/Config";
 import Loader from "../Components/Loader";
 
-const url = "https://bonbangsasu.com";
+const { url } = config;
 
 export default class FeedhoScreen extends React.Component {
   // SelectionScreen의 navigation.parameter로 넘어온값 초기화

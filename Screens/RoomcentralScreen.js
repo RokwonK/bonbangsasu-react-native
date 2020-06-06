@@ -23,8 +23,7 @@ const condition = ['반세', '년세','매매'];
 
 
 const option = ['냉장고','세탁기', '인덕션', '가스레인지','전자레인지', '옷장', '전자도어락', 'TV','책상', '에어컨','심야전기' , '신발장'];
-
-const url = 'https://bonbangsasu.com';
+const { url } = config;
 
 export default class RoomcentralScreen extends Component {
 
